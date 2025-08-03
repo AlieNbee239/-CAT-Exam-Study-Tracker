@@ -1,0 +1,5096 @@
+[
+  {
+    "date": "Sunday 3 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-0-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-0-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-0-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-0",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-0",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 4 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-1-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-1-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-1-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-1",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-1",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-1",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-1",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 5 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-2-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-2-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-2-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-2",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-2",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-2",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-2",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 6 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-3-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-3-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-3-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-3",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-3",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-3",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-3",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 7 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-4-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-4-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-4-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-4",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-4",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-4",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-4",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 8 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-5-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-5-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-5-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-5",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-5",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-5",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-5",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 9 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-6-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-6-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-6-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-6",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-6",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 10 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-7-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-7-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-7-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-7",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-7",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 11 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-8-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-8-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-8-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-8",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-8",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-8",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-8",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 12 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-9-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-9-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-9-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-9",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-9",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-9",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-9",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 13 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-10-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-10-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-10-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-10",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-10",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-10",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-10",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 14 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-11-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-11-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-11-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-11",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-11",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-11",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-11",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 15 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-12-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-12-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-12-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-12",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-12",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-12",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-12",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 16 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-13-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-13-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-13-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-13",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-13",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 17 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-14-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-14-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-14-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-14",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-14",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 18 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-15-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-15-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-15-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-15",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-15",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-15",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-15",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 19 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-16-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-16-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-16-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-16",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-16",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-16",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-16",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 20 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-17-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-17-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-17-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-17",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-17",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-17",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-17",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 21 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-18-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-18-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-18-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-18",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-18",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-18",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-18",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 22 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-19-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-19-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-19-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-19",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-19",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-19",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-19",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 23 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-20-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-20-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-20-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-20",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-20",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 24 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-21-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-21-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-21-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-21",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-21",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 25 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-22-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-22-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-22-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-22",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-22",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-22",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-22",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 26 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-23-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-23-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-23-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-23",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-23",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-23",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-23",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 27 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-24-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-24-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-24-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-24",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-24",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-24",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-24",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 28 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-25-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-25-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-25-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-25",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-25",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-25",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-25",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 29 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-26-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-26-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-26-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-26",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-26",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-26",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-26",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 30 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-27-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-27-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-27-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-27",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-27",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 31 August, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-28-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-28-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-28-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-28",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-28",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 1 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-29-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-29-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-29-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-29",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-29",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-29",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-29",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 2 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-30-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-30-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-30-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-30",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-30",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-30",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-30",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 3 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-31-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-31-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-31-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-31",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-31",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-31",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-31",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 4 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-32-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-32-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-32-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-32",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-32",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-32",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-32",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 5 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-33-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-33-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-33-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-33",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-33",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-33",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-33",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 6 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-34-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-34-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-34-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-34",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-34",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 7 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-35-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-35-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-35-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-35",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-35",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 8 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-36-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-36-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-36-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-36",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-36",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-36",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-36",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 9 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-37-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-37-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-37-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-37",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-37",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-37",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-37",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 10 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-38-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-38-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-38-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-38",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-38",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-38",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-38",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 11 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-39-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-39-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-39-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-39",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-39",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-39",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-39",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 12 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-40-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-40-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-40-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-40",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-40",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-40",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-40",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 13 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-41-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-41-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-41-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-41",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-41",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 14 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-42-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-42-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-42-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-42",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-42",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 15 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-43-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-43-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-43-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-43",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-43",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-43",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-43",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 16 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-44-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-44-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-44-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-44",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-44",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-44",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-44",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 17 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-45-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-45-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-45-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-45",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-45",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-45",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-45",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 18 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-46-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-46-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-46-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-46",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-46",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-46",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-46",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 19 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-47-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-47-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-47-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-47",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-47",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-47",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-47",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 20 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-48-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-48-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-48-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-48",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-48",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 21 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-49-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-49-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-49-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-49",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-49",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 22 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-50-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-50-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-50-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-50",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-50",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-50",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-50",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 23 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-51-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-51-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-51-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-51",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-51",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-51",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-51",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 24 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-52-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-52-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-52-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-52",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-52",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-52",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-52",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 25 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-53-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-53-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-53-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-53",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-53",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-53",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-53",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 26 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-54-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-54-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-54-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-54",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-54",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-54",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-54",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 27 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-55-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-55-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-55-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-55",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-55",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 28 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-56-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-56-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-56-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-56",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-56",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 29 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-57-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-57-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-57-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-57",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-57",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-57",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-57",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 30 September, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-58-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-58-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-58-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-58",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-58",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-58",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-58",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 1 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-59-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-59-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-59-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-59",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-59",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-59",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-59",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 2 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-60-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-60-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-60-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-60",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-60",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-60",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-60",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 3 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-61-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-61-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-61-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-61",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-61",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-61",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-61",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 4 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-62-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-62-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-62-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-62",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-62",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 5 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-63-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-63-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-63-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-63",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-63",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 6 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-64-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-64-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-64-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-64",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-64",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-64",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-64",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 7 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-65-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-65-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-65-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-65",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-65",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-65",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-65",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 8 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-66-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-66-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-66-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-66",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-66",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-66",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-66",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 9 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-67-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-67-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-67-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-67",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-67",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-67",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-67",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 10 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-68-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-68-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-68-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-68",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-68",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-68",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-68",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 11 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-69-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-69-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-69-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-69",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-69",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 12 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-70-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-70-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-70-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-70",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-70",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 13 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-71-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-71-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-71-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-71",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-71",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-71",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-71",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 14 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-72-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-72-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-72-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-72",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-72",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-72",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-72",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 15 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-73-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-73-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-73-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-73",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-73",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-73",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-73",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 16 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-74-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-74-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-74-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-74",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-74",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-74",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-74",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 17 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-75-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-75-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-75-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-75",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-75",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-75",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-75",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 18 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-76-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-76-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-76-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-76",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-76",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 19 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-77-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-77-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-77-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-77",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-77",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 20 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-78-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-78-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-78-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-78",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-78",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-78",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-78",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 21 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-79-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-79-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-79-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-79",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-79",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-79",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-79",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 22 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-80-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-80-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-80-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-80",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-80",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-80",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-80",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 23 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-81-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-81-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-81-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-81",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-81",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-81",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-81",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 24 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-82-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-82-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-82-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-82",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-82",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-82",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-82",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 25 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-83-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-83-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-83-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-83",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-83",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 26 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-84-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-84-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-84-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-84",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-84",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 27 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-85-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-85-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-85-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-85",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-85",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-85",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-85",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 28 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-86-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-86-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-86-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-86",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-86",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-86",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-86",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 29 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-87-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-87-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-87-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-87",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-87",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-87",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-87",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 30 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-88-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-88-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-88-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-88",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-88",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-88",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-88",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 31 October, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-89-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-89-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-89-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-89",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-89",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-89",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-89",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 1 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-90-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-90-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-90-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-90",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-90",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 2 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-91-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-91-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-91-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-91",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-91",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 3 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-92-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-92-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-92-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-92",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-92",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-92",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-92",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Tuesday 4 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-93-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-93-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-93-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-93",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-93",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-93",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-93",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Wednesday 5 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-94-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-94-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-94-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-94",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-94",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "mock-94",
+        "text": "\ud83d\udcda Mock Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "mock-analysis-94",
+        "text": "\ud83d\udcca Mock Test Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Thursday 6 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-95-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-95-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-95-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-95",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-95",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-95",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-95",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Friday 7 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-96-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-96-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-96-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-96",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-96",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-96",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-96",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Saturday 8 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-97-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-97-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-97-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-97",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-97",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Sunday 9 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-98-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-98-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-98-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-98",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-98",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  },
+  {
+    "date": "Monday 10 November, 2025",
+    "tasks": [
+      {
+        "id": "daily-target-99-1",
+        "text": "\ud83d\udcd6 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-99-2",
+        "text": "\ud83e\udde0 Weak area study (Quant)",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "daily-target-99-3",
+        "text": "\u270d\ufe0f Read Aeon articles",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-target-99",
+        "text": "\ud83c\udfaf Creaku Daily Target",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "creaku-analysis-99",
+        "text": "\ud83e\uddd0 Creaku Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "sectional-99",
+        "text": "\u270f\ufe0f Sectional Test",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "sectional-analysis-99",
+        "text": "\ud83e\uddd0 Sectional Analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  }
+]
