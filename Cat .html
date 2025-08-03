@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 Cat Study Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e5e7eb;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }
+
+        /* Hero Header with Google-themed gradient */
+        #hero-header {
+            border-radius: 2.5rem;
+            background: linear-gradient(135deg, #4285F4, #EA4335);
+            box-shadow: 0 10px 25px rgba(66, 133, 244, 0.4);
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Subtle hero moment glow animation with Google colors */
+        @keyframes glowing {
+            0% { box-shadow: 0 0 10px rgba(66, 133, 244, 0.2), 0 0 20px rgba(234, 67, 53, 0.1); }
+            50% { box-shadow: 0 0 20px rgba(66, 133, 244, 0.4), 0 0 40px rgba(234, 67, 53, 0.3); }
+            100% { box-shadow: 0 0 10px rgba(66, 133, 244, 0.2), 0 0 20px rgba(234, 67, 53, 0.1); }
+        }
+
+        .hero-moment {
+            animation: glowing 3s ease-in-out infinite;
+        }
+        
+        /* Expressive Progress Bar with animated Google color gradient */
+        .progress-bar-bg {
+            background-color: #e5e7eb;
+            border-radius: 9999px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-bar-fill {
+            background: linear-gradient(90deg, #4285F4, #34A853, #FBBC05, #EA4335, #4285F4);
+            background-size: 200% 100%;
+            transition: all 0.5s ease-in-out;
+            border-radius: 9999px;
+            animation: progress-glow 2s linear infinite;
+        }
+        @keyframes progress-glow {
+            0% { background-position: 100% 0; }
+            100% { background-position: -100% 0; }
+        }
+
+        /* Expressive Day Card with unique shape, now unified */
+        .day-card {
+            border-radius: 1rem 0.25rem 1rem 0.25rem;
+            border: 1px solid #e2e8f0;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.4, 1.2), box-shadow 0.3s ease-in-out;
+            padding: 0.75rem;
+        }
+        .day-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Modal styling */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        /* Modal bounce animation */
+        @keyframes bounceIn {
+            from, 20%, 40%, 60%, 80%, to { animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); }
+            0% { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+            20% { transform: scale3d(1.1, 1.1, 1.1); }
+            40% { transform: scale3d(0.9, 0.9, 0.9); }
+            60% { opacity: 1; transform: scale3d(1.03, 1.03, 1.03); }
+            80% { transform: scale3d(0.97, 0.97, 0.97); }
+            to { opacity: 1; transform: scale3d(1, 1, 1); }
+        }
+        .modal-content {
+            animation: bounceIn 0.8s forwards;
+            border-radius: 2rem;
+            padding: 2.5rem;
+        }
+
+        /* Party animation modal */
+        #party-modal .modal-content {
+            background: linear-gradient(135deg, #FFD700, #FF6347, #4CAF50);
+            text-align: center;
+            color: white;
+            padding: 4rem;
+            position: relative;
+            overflow: hidden;
+            border-radius: 3rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Confetti effect using pseudo-elements */
+        #party-modal .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            animation: confetti-fall 2s ease-in-out forwards;
+        }
+
+        @keyframes confetti-fall {
+            0% {
+                transform: translateY(-100px) rotateZ(0deg) scale(0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0) rotateZ(180deg) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(100px) rotateZ(360deg) scale(0.5);
+            }
+        }
+        
+        /* Undo notification styles */
+        #undo-notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 1rem 1.5rem;
+            background-color: #1f2937;
+            color: #f9fafb;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            display: none;
+            align-items: center;
+            gap: 1rem;
+            z-index: 1001;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+            to { opacity: 1; transform: translateX(-50%) translateY(0); }
+        }
+
+        #calendar-container .day-cell-hover-container {
+            position: relative;
+        }
+        #calendar-container .delete-icon {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            color: #ef4444;
+            font-weight: bold;
+            display: none;
+            cursor: pointer;
+            z-index: 10;
+        }
+        #calendar-container .day-cell-hover-container:hover .delete-icon {
+            display: block;
+        }
+
+        /* Optimized layout for all screen sizes */
+        .main-content-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        @media (min-width: 1024px) {
+            .main-content-grid {
+                grid-template-columns: 1fr 3fr; /* Narrower left section and wider right section for large screens */
+            }
+        }
+        
+        .plan-section {
+            display: grid;
+            gap: 2rem;
+            align-content: start; /* Fixes blank space by aligning content to the top */
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .plan-section {
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* Two columns for tablets */
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .plan-section {
+                 grid-template-columns: repeat(3, minmax(0, 1fr)); /* Three columns for desktops */
+            }
+        }
+        
+        .task-item-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        /* Updated styling for task list items to be a cohesive list */
+        .task-list-item {
+            padding: 0.5rem 0.25rem;
+            border-bottom: 1px solid #e5e7eb;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .task-list-item:hover {
+            background-color: #f3f4f6;
+        }
+        .task-list-item:last-child {
+            border-bottom: none;
+        }
+        
+        /* Google-themed primary button */
+        .button-primary {
+            background-color: #4285F4;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 1.5rem 0.5rem;
+            box-shadow: 0 4px 10px rgba(66, 133, 244, 0.3);
+            transition: all 0.3s cubic-bezier(0.2, 0.8, 0.4, 1.2);
+        }
+        .button-primary:hover {
+            background-color: #3c78dd;
+            box-shadow: 0 6px 15px rgba(66, 133, 244, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .button-secondary {
+            background-color: #e5e7eb;
+            color: #4b5563;
+            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 1rem;
+            transition: all 0.3s ease-in-out;
+        }
+        .button-secondary:hover {
+            background-color: #d1d5db;
+            transform: translateY(-1px);
+        }
+        
+        /* New styling for the calendar header to fix icon overlap */
+        .calendar-header {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 1rem;
+            align-items: center;
+        }
+        .calendar-header h4 {
+            grid-column: 2 / span 1;
+            text-align: center;
+        }
+        
+        /* New styling for Import/Export buttons */
+        .button-import {
+            background-color: #34A853; /* Google Green */
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 10px rgba(52, 168, 83, 0.3);
+            transition: all 0.3s cubic-bezier(0.2, 0.8, 0.4, 1.2);
+        }
+        .button-import:hover {
+            background-color: #2e8a4a;
+            box-shadow: 0 6px 15px rgba(52, 168, 83, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .button-export {
+            background-color: #4285F4; /* Google Blue */
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 10px rgba(66, 133, 244, 0.3);
+            transition: all 0.3s cubic-bezier(0.2, 0.8, 0.4, 1.2);
+        }
+        .button-export:hover {
+            background-color: #3c78dd;
+            box-shadow: 0 6px 15px rgba(66, 133, 244, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div id="app" class="container mx-auto py-8 relative">
+        <header id="hero-header" class="mb-8 p-8 text-center relative border border-gray-200 hero-moment">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight drop-shadow-md">
+                🎯 Cat Study Tracker
+            </h1>
+            <p id="countdown" class="mt-4 text-3xl sm:text-4xl text-white font-extrabold drop-shadow-md">
+                <span class="font-black text-blue-200">--</span> days <span class="font-black text-blue-200">--</span> hrs <span class="font-black text-blue-200">--</span> mins left
+            </p>
+        </header>
+
+        <!-- Main content grid -->
+        <div class="main-content-grid">
+            <!-- Left Side: Calendar & Controls -->
+            <div class="p-6">
+                <!-- Calendar container -->
+                <div id="calendar-container" class="p-6 bg-white rounded-2xl shadow-xl border border-gray-200">
+                    <!-- Calendar header will be rendered by JS -->
+                </div>
+                
+                <!-- Import/Export & Clear Data Buttons -->
+                <div class="mt-8 space-y-4">
+                    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <button onclick="importData()" class="flex-1 w-full button-import">
+                            Import
+                        </button>
+                        <button onclick="exportData()" class="flex-1 w-full button-export">
+                            Export
+                        </button>
+                    </div>
+                    <button onclick="openClearDataModal()" class="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-md shadow transition-colors text-lg">
+                        Clear All Data
+                    </button>
+                </div>
+                
+                <p id="daily-quote" class="text-sm italic text-gray-600 mt-4 px-2 text-center"></p>
+            </div>
+            
+            <!-- Right Side: Main Plan Section -->
+            <div id="plan-container" class="plan-section p-6 pt-0 lg:pt-6">
+                <!-- Day cards will be injected here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for viewing and adding tasks -->
+    <div id="view-tasks-modal" class="hidden modal-overlay" onclick="closeModal(event, 'view-tasks-modal')">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full relative modal-content" onclick="event.stopPropagation()">
+            <button onclick="closeModal(event, 'view-tasks-modal')" class="close-modal absolute top-4 right-4 text-gray-500 hover:text-gray-900 font-bold text-xl">
+                &times;
+            </button>
+            <h3 id="view-modal-date" class="text-2xl font-bold mb-4 text-center text-gray-800"></h3>
+            <div id="view-modal-tasks" class="space-y-4 max-h-80 overflow-y-auto"></div>
+            
+            <!-- New Task Form integrated here -->
+            <div class="mt-6 border-t pt-4 border-gray-200">
+                <h4 class="text-lg font-bold text-gray-800 mb-4">Add a new task:</h4>
+                <form id="task-form" class="space-y-4">
+                    <div>
+                        <input type="text" id="task-name-input" placeholder="Task name..." class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" required>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="scorable-checkbox" type="checkbox" class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="scorable-checkbox" class="ml-2 block text-sm font-medium text-gray-700">
+                            Track Score?
+                        </label>
+                    </div>
+                    <input type="hidden" id="task-day-index">
+                    <input type="hidden" id="task-id">
+                    <div class="flex justify-center">
+                        <button type="submit" id="save-task-button" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow transition-colors">
+                            Add Task
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal for clearing data -->
+    <div id="clear-data-modal" class="hidden modal-overlay" onclick="closeClearDataModal(event)">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-sm w-full relative text-center modal-content" onclick="event.stopPropagation()">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">⚠️ Clear All Data?</h3>
+            <p class="text-gray-600 mb-6">Are you sure you want to clear all your saved progress? This action cannot be undone.</p>
+            <div class="flex justify-center gap-4">
+                <button onclick="closeClearDataModal(event)" class="button-secondary">
+                    Cancel
+                </button>
+                <button onclick="clearAllDataAndReload()" class="w-full button-primary bg-red-500 hover:bg-red-600 transition-colors">
+                    Clear
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Score Input Modal -->
+    <div id="score-modal" class="hidden modal-overlay" onclick="closeScoreModal(event)">
+        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-xs w-full relative modal-content" onclick="event.stopPropagation()">
+            <h3 class="text-xl font-bold mb-4 text-center">Add Score</h3>
+            <input type="text" id="score-input" placeholder="Enter score" class="w-full px-3 py-2 border rounded-md focus:ring-blue-500 focus:border-blue-500 bg-gray-50 mb-4" />
+            <div class="flex justify-center gap-2">
+                <button onclick="saveScore()" class="button-primary">
+                    Save
+                </button>
+                <button onclick="closeScoreModal(event)" class="button-secondary">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Party Pop-up Modal -->
+    <div id="party-modal" class="hidden modal-overlay">
+        <div class="modal-content">
+            <h3 class="text-3xl font-extrabold">🎉 All Done! 🎉</h3>
+            <p class="mt-4 text-lg font-medium">You've completed all tasks for this day. Well done! 🚀</p>
+        </div>
+    </div>
+    
+    <!-- Undo Notification -->
+    <div id="undo-notification" class="flex justify-between items-center text-sm">
+        <span>✅ Day deleted.</span>
+        <button onclick="undoDelete()" class="font-bold py-1 px-3 rounded-md bg-blue-500 hover:bg-blue-600 text-white transition-colors">
+            Undo
+        </button>
+    </div>
+    
+    <!-- Custom Message Box -->
+    <div id="message-box-modal" class="hidden modal-overlay" onclick="closeModal(event, 'message-box-modal')">
+        <div class="bg-white p-6 rounded-2xl shadow-2xl max-w-sm w-full relative text-center modal-content" onclick="event.stopPropagation()">
+            <p id="message-box-text" class="text-gray-600 mb-6"></p>
+            <button onclick="closeModal(event, 'message-box-modal')" class="button-primary">OK</button>
+        </div>
+    </div>
+
+    <!-- Export Progress Modal -->
+    <div id="export-progress-modal" class="hidden modal-overlay">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-xs w-full relative modal-content" onclick="event.stopPropagation()">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800 text-center">Exporting...</h3>
+            <p class="text-gray-600 mb-6 text-center">Preparing your data for download.</p>
+            <div id="export-progress-bar-container" class="w-full h-3 progress-bar-bg">
+                <div id="export-progress-bar" class="h-full progress-bar-fill" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import Progress Modal -->
+    <div id="import-progress-modal" class="hidden modal-overlay">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-xs w-full relative modal-content" onclick="event.stopPropagation()">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800 text-center">Importing...</h3>
+            <p class="text-gray-600 mb-6 text-center">Processing your data. Please wait.</p>
+            <div id="import-progress-bar-container" class="w-full h-3 progress-bar-bg">
+                <!-- Corrected the ID here from 'export-progress-bar' to 'import-progress-bar' -->
+                <div id="import-progress-bar" class="h-full progress-bar-fill" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Global state for the application
+        const appState = {
+            plan: [],
+            selectedDateInCalendar: null,
+            currentMonth: new Date().getMonth(),
+            currentYear: new Date().getFullYear(),
+            lastDeletedDay: null,
+            lastDeletedDayId: null,
+            activeScoreTask: null,
+            activeEditTask: null,
+            motivationalQuotes: [
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "Believe you can and you're halfway there. - Theodore Roosevelt",
+                "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+                "The secret of getting ahead is getting started. - Mark Twain",
+                "Success is not final; failure is not fatal: it is the courage to continue that counts. - Winston S. Churchill",
+                "Hardships often prepare ordinary people for an extraordinary destiny. - C.S. Lewis",
+                "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+            ]
+        };
+        
+        // --- DOM Elements ---
+        const dom = {
+            countdown: document.getElementById('countdown'),
+            dailyQuote: document.getElementById('daily-quote'),
+            planContainer: document.getElementById('plan-container'),
+            calendarContainer: document.getElementById('calendar-container'),
+            viewTasksModal: document.getElementById('view-tasks-modal'),
+            viewModalDate: document.getElementById('view-modal-date'),
+            viewModalTasks: document.getElementById('view-modal-tasks'),
+            taskForm: document.getElementById('task-form'),
+            taskNameInput: document.getElementById('task-name-input'),
+            scorableCheckbox: document.getElementById('scorable-checkbox'),
+            saveTaskButton: document.getElementById('save-task-button'),
+            clearDataModal: document.getElementById('clear-data-modal'),
+            scoreModal: document.getElementById('score-modal'),
+            scoreInput: document.getElementById('score-input'),
+            undoNotification: document.getElementById('undo-notification'),
+            messageBoxModal: document.getElementById('message-box-modal'),
+            messageBoxText: document.getElementById('message-box-text'),
+            exportProgressModal: document.getElementById('export-progress-modal'),
+            exportProgressBar: document.getElementById('export-progress-bar'),
+            importProgressModal: document.getElementById('import-progress-modal'),
+            importProgressBar: document.getElementById('import-progress-bar'),
+            partyModal: document.getElementById('party-modal'),
+        };
+
+        // --- Custom Message Box Function ---
+        const showMessageBox = (message) => {
+            dom.messageBoxText.textContent = message;
+            dom.messageBoxModal.classList.remove('hidden');
+        };
+
+        // --- Data Persistence (Local Storage) ---
+        const savePlanToLocalStorage = () => {
+            try {
+                localStorage.setItem('cat-study-tracker-plan', JSON.stringify(appState.plan));
+            } catch (e) {
+                console.error("Error saving to local storage:", e);
+                showMessageBox("Error: Could not save your progress. Local storage may be full or disabled.");
+            }
+        };
+
+        const loadPlanFromLocalStorage = () => {
+            try {
+                const storedPlan = localStorage.getItem('cat-study-tracker-plan');
+                if (storedPlan && JSON.parse(storedPlan).length > 0) {
+                    appState.plan = JSON.parse(storedPlan);
+                } else {
+                    generateNewPlan();
+                }
+            } catch (e) {
+                console.error("Error loading from local storage:", e);
+                showMessageBox("Error: Could not load data from local storage. Your data might be corrupted.");
+                generateNewPlan();
+            }
+        };
+        
+        // Function to export all data
+        const exportData = () => {
+            if (appState.plan.length === 0) {
+                showMessageBox("There is no data to export yet! 😔");
+                return;
+            }
+
+            dom.exportProgressModal.classList.remove('hidden');
+            dom.exportProgressBar.style.width = '0%';
+
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 10;
+                dom.exportProgressBar.style.width = `${progress}%`;
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    try {
+                        const dataStr = JSON.stringify(appState.plan, null, 2);
+                        const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+                        const exportFileDefaultName = 'cat-study-tracker-backup.json';
+                        const linkElement = document.createElement('a');
+                        linkElement.setAttribute('href', dataUri);
+                        linkElement.setAttribute('download', exportFileDefaultName);
+                        linkElement.click();
+                        showMessageBox("Data exported successfully! 🎉");
+                    } catch (e) {
+                        console.error("Error exporting data:", e);
+                        showMessageBox("An error occurred during data export. Please try again. 😢");
+                    } finally {
+                        dom.exportProgressModal.classList.add('hidden');
+                    }
+                }
+            }, 200); // 200ms * 10 steps = 2 seconds
+        };
+
+        // Function to import data from a file
+        const importData = () => {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = 'application/json';
+            
+            input.onchange = (event) => {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                dom.importProgressModal.classList.remove('hidden');
+                dom.importProgressBar.style.width = '0%';
+                
+                let progress = 0;
+                const importInterval = setInterval(() => {
+                    progress += 10;
+                    dom.importProgressBar.style.width = `${progress}%`;
+                    if (progress >= 100) {
+                        clearInterval(importInterval);
+                    }
+                }, 100);
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    setTimeout(() => {
+                        try {
+                            const importedPlan = JSON.parse(e.target.result);
+                            if (Array.isArray(importedPlan)) {
+                                appState.plan = importedPlan;
+                                savePlanToLocalStorage();
+                                renderPlan();
+                                renderCalendar();
+                                showMessageBox("Study plan imported successfully! ✨");
+                            } else {
+                                showMessageBox("Invalid file format. Please upload a valid JSON file. 📄");
+                            }
+                        } catch (error) {
+                            console.error("Error importing data:", error);
+                            showMessageBox("An error occurred while parsing the file. Please check the file's format. 🛠️");
+                        } finally {
+                            dom.importProgressModal.classList.add('hidden');
+                        }
+                    }, 1000); // Add a small delay to ensure the animation plays
+                };
+                reader.readAsText(file);
+            };
+            input.click();
+        };
+
+        // --- Core App Logic ---
+        
+        const showPartyPopup = () => {
+            dom.partyModal.classList.remove('hidden');
+            setTimeout(() => {
+                dom.partyModal.classList.add('hidden');
+            }, 3000);
+        };
+
+        const getDailyQuote = () => {
+            const today = new Date();
+            const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+            const quoteIndex = dayOfYear % appState.motivationalQuotes.length;
+            return appState.motivationalQuotes[quoteIndex];
+        };
+
+        // --- Task & Plan Rendering ---
+        const createTaskItem = (task, dayIndex) => {
+            const li = document.createElement('li');
+            // Changed padding from p-2 to p-1 and removed mt-1 from checkbox
+            li.className = 'flex items-center p-1 first:pt-0 last:pb-0 transition-all duration-300';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.checked = task.isDone;
+            // Removed mt-1 from the checkbox class for better alignment
+            checkbox.className = 'flex-shrink-0 w-5 h-5 text-blue-600 bg-white border-gray-300 rounded-md focus:ring-blue-500';
+            checkbox.addEventListener('change', () => handleTaskToggle(dayIndex, task.id));
+            li.appendChild(checkbox);
+
+            const taskContent = document.createElement('div');
+            taskContent.className = 'flex-grow ml-3 flex items-center justify-between task-item-container';
+
+            const taskText = document.createElement('span');
+            // Changed font size to 0.675rem as requested
+            taskText.className = `leading-tight ${task.isDone ? 'text-gray-400 line-through' : 'text-gray-700'}`;
+            taskText.style.fontSize = '0.675rem';
+
+            taskText.textContent = task.text;
+
+            const actionContainer = document.createElement('div');
+            actionContainer.className = 'flex-shrink-0 flex items-center space-x-2 ml-4';
+
+            if (task.isDone && task.isScorable && !task.score) {
+                const addScoreButton = document.createElement('button');
+                addScoreButton.className = 'text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors flex items-center';
+                addScoreButton.innerHTML = `Add Score`;
+                addScoreButton.onclick = () => openScoreModal(dayIndex, task.id);
+                actionContainer.appendChild(addScoreButton);
+            } else if (task.score) {
+                const scoreDisplay = document.createElement('span');
+                scoreDisplay.className = 'text-xs font-bold text-blue-600';
+                scoreDisplay.textContent = task.score;
+                actionContainer.appendChild(scoreDisplay);
+            }
+            
+            taskContent.appendChild(taskText);
+            taskContent.appendChild(actionContainer);
+            li.appendChild(taskContent);
+
+            return li;
+        };
+
+        const createProgressBar = (progress) => {
+            const container = document.createElement('div');
+            container.className = 'w-full h-2.5 progress-bar-bg';
+            const bar = document.createElement('div');
+            bar.className = 'h-2.5 progress-bar-fill';
+            bar.style.width = `${progress}%`;
+            container.appendChild(bar);
+            return container;
+        };
+        
+        const createDayCard = (day, dayIndex) => {
+            const dayCard = document.createElement('div');
+            dayCard.className = 'day-card';
+
+            const dayTitle = document.createElement('h3');
+            dayTitle.className = `mb-2 text-base font-bold text-gray-800 flex items-center`;
+            dayTitle.innerHTML = `<span class="mr-2">🗓️</span> ${day.date}`;
+
+            const progressBarContainer = document.createElement('div');
+            progressBarContainer.className = 'mb-4';
+            progressBarContainer.appendChild(createProgressBar(day.progress));
+
+            const progressText = document.createElement('span');
+            progressText.className = 'text-xs font-semibold text-gray-500 mt-2 block';
+            progressText.textContent = `${day.progress.toFixed(0)}% Complete`;
+            progressBarContainer.appendChild(progressText);
+
+            const tasksList = document.createElement('ul');
+            // Changed space-y-2 to space-y-1 for a more compact list
+            tasksList.className = 'space-y-1';
+            day.tasks.forEach(task => {
+                tasksList.appendChild(createTaskItem(task, dayIndex));
+            });
+
+            const addTaskButton = document.createElement('button');
+            addTaskButton.className = 'mt-4 w-full button-primary';
+            addTaskButton.textContent = 'Manage Tasks';
+            addTaskButton.onclick = () => openViewTasksModal(dayIndex, new Date(day.date));
+
+            dayCard.appendChild(dayTitle);
+            dayCard.appendChild(progressBarContainer);
+            dayCard.appendChild(tasksList);
+            dayCard.appendChild(addTaskButton);
+
+            return dayCard;
+        };
+        
+        const renderPlan = () => {
+            dom.planContainer.innerHTML = '';
+            
+            dom.planContainer.classList.remove('grid-cols-1', 'grid-cols-2', 'grid-cols-3', 'grid-cols-4', 'gap-6', 'gap-4', 'gap-3');
+            dom.planContainer.classList.add('grid', 'gap-4', 'sm:grid-cols-2', 'lg:grid-cols-3', 'xl:grid-cols-4');
+            
+            if (appState.plan.length === 0) {
+                const emptyState = document.createElement('div');
+                emptyState.className = 'flex flex-col items-center justify-center h-full text-center text-gray-500 text-lg p-8 rounded-xl border border-dashed border-gray-300 w-full col-span-full';
+                emptyState.innerHTML = '<p>No study plan found. Add a task to get started! 🚀</p>';
+                dom.planContainer.appendChild(emptyState);
+                return;
+            }
+
+            const incompleteDays = appState.plan.filter(day => !day.tasks.every(task => task.isDone));
+            const completedDays = appState.plan.filter(day => day.tasks.every(task => task.isDone));
+
+            const sortedIncompleteDays = incompleteDays.sort((a, b) => new Date(a.date) - new Date(b.date));
+            const sortedCompletedDays = completedDays.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            const sortedPlan = [...sortedIncompleteDays, ...sortedCompletedDays];
+
+            sortedPlan.forEach((day) => {
+                const originalIndex = appState.plan.findIndex(d => d.date === day.date);
+                dom.planContainer.appendChild(createDayCard(day, originalIndex));
+            });
+        };
+
+        // --- Event Handlers & Modals ---
+        const handleTaskToggle = (dayIndex, taskId) => {
+            const day = appState.plan[dayIndex];
+            const task = day.tasks.find(t => t.id === taskId);
+            if (task) {
+                task.isDone = !task.isDone;
+                if (!task.isDone) {
+                    task.score = '';
+                }
+                const completedTasks = day.tasks.filter(t => t.isDone).length;
+                const totalTasks = day.tasks.length;
+                day.progress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
+                
+                savePlanToLocalStorage();
+                renderPlan();
+                renderCalendar();
+
+                const isDayComplete = day.tasks.every(t => t.isDone && (!t.isScorable || t.score));
+                if (isDayComplete) {
+                    showPartyPopup();
+                }
+            }
+        };
+
+        const saveTaskFromModal = (e) => {
+            e.preventDefault();
+            const taskName = dom.taskNameInput.value.trim();
+            const isScorable = dom.scorableCheckbox.checked;
+
+            if (!taskName) return;
+
+            const date = appState.selectedDateInCalendar;
+            let dayIndex = appState.plan.findIndex(d => new Date(d.date).setHours(0,0,0,0) === date.setHours(0,0,0,0));
+            
+            let day;
+            if (dayIndex === -1) {
+                const dateString = date.toLocaleString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                day = {
+                    date: dateString,
+                    tasks: [],
+                    progress: 0
+                };
+                appState.plan.push(day);
+                appState.plan.sort((a, b) => new Date(a.date) - new Date(b.date));
+                dayIndex = appState.plan.findIndex(d => new Date(d.date).setHours(0,0,0,0) === date.setHours(0,0,0,0));
+            } else {
+                day = appState.plan[dayIndex];
+            }
+
+            const newTaskId = `custom-task-${dayIndex}-${day.tasks.length}-${new Date().getTime()}`;
+            day.tasks.push({
+                id: newTaskId,
+                text: taskName,
+                isDone: false,
+                score: '',
+                isScorable: isScorable
+            });
+
+            const completedTasks = day.tasks.filter(t => t.isDone).length;
+            const totalTasks = day.tasks.length;
+            day.progress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
+            
+            savePlanToLocalStorage();
+            renderPlan();
+            renderCalendar();
+            
+            renderViewTasksModal(dayIndex);
+            dom.taskNameInput.value = '';
+            dom.scorableCheckbox.checked = false;
+        };
+
+        const openViewTasksModal = (dayIndex, selectedDate) => {
+            appState.selectedDateInCalendar = selectedDate;
+            dom.viewTasksModal.classList.remove('hidden');
+            renderViewTasksModal(dayIndex);
+            dom.taskNameInput.value = '';
+            dom.scorableCheckbox.checked = false;
+        };
+        
+        const closeModal = (event, modalId) => {
+            const modal = document.getElementById(modalId);
+            modal.classList.add('hidden');
+        };
+
+        const renderViewTasksModal = (dayIndex) => {
+            dom.viewModalTasks.innerHTML = '';
+            
+            const dateString = appState.selectedDateInCalendar.toLocaleString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            dom.viewModalDate.textContent = dateString;
+
+            const day = appState.plan[dayIndex];
+            if (day && day.tasks.length > 0) {
+                day.tasks.forEach(task => {
+                    const li = document.createElement('li');
+                    // Reduced padding and margin for a more compact list
+                    li.className = 'flex items-center p-1 my-1 task-list-item';
+                    
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.checked = task.isDone;
+                    checkbox.className = 'flex-shrink-0 w-5 h-5 text-blue-600 bg-white border-gray-300 rounded-md focus:ring-blue-500';
+                    checkbox.addEventListener('change', () => handleTaskToggle(dayIndex, task.id));
+                    
+                    const taskText = document.createElement('span');
+                    taskText.className = `ml-3 leading-tight ${task.isDone ? 'text-gray-400 line-through' : 'text-gray-700'}`;
+                    taskText.style.fontSize = '0.675rem';
+                    taskText.textContent = task.text;
+
+                    const actionButtons = document.createElement('div');
+                    actionButtons.className = 'ml-auto flex items-center space-x-2';
+
+                    const deleteButton = document.createElement('button');
+                    deleteButton.className = 'text-xs font-medium text-red-500 hover:text-red-700 transition-colors';
+                    deleteButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash-2"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/></svg>`;
+                    deleteButton.onclick = (e) => {
+                        e.stopPropagation();
+                        // Changed confirm() to a custom message box
+                        showMessageBox("Are you sure you want to delete this task? This cannot be undone.");
+                        const confirmDelete = () => {
+                            deleteTask(dayIndex, task.id);
+                            closeModal(null, 'message-box-modal');
+                        };
+                        const okButton = dom.messageBoxModal.querySelector('.button-primary');
+                        okButton.onclick = confirmDelete;
+                    };
+
+                    actionButtons.appendChild(deleteButton);
+                    li.appendChild(checkbox);
+                    li.appendChild(taskText);
+                    li.appendChild(actionButtons);
+                    dom.viewModalTasks.appendChild(li);
+                });
+            } else {
+                const noTasksMessage = document.createElement('p');
+                noTasksMessage.className = 'text-center text-gray-500 text-lg my-4';
+                noTasksMessage.textContent = 'No tasks scheduled for this day yet. 🐱';
+                dom.viewModalTasks.appendChild(noTasksMessage);
+            }
+        };
+
+        const deleteTask = (dayIndex, taskId) => {
+            const day = appState.plan[dayIndex];
+            if (day) {
+                const taskIndex = day.tasks.findIndex(t => t.id === taskId);
+                if (taskIndex !== -1) {
+                    day.tasks.splice(taskIndex, 1);
+                    
+                    const completedTasks = day.tasks.filter(t => t.isDone).length;
+                    const totalTasks = day.tasks.length;
+                    day.progress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
+                    
+                    savePlanToLocalStorage();
+                    renderPlan();
+                    renderCalendar();
+                    renderViewTasksModal(dayIndex);
+                }
+            }
+        };
+        
+        const openScoreModal = (dayIndex, taskId) => {
+            appState.activeScoreTask = { dayIndex, taskId };
+            dom.scoreModal.classList.remove('hidden');
+            dom.scoreInput.value = '';
+        };
+
+        const closeScoreModal = (event) => {
+            dom.scoreModal.classList.add('hidden');
+            appState.activeScoreTask = null;
+        };
+
+        const saveScore = () => {
+            if (!appState.activeScoreTask) return;
+
+            const score = dom.scoreInput.value.trim();
+            if (score) {
+                const { dayIndex, taskId } = appState.activeScoreTask;
+                const day = appState.plan[dayIndex];
+                const task = day.tasks.find(t => t.id === taskId);
+                if (task) {
+                    task.score = score;
+                    savePlanToLocalStorage();
+                    renderPlan();
+                    closeScoreModal();
+                }
+            } else {
+                showMessageBox("Please enter a score. 💯");
+            }
+        };
+        
+        // --- Reset & Undo Logic ---
+        const openClearDataModal = () => {
+            dom.clearDataModal.classList.remove('hidden');
+        };
+
+        const closeClearDataModal = (event) => {
+            dom.clearDataModal.classList.add('hidden');
+        };
+        
+        const clearAllDataAndReload = () => {
+            appState.plan = [];
+            savePlanToLocalStorage();
+            closeClearDataModal();
+            renderPlan();
+            renderCalendar();
+            showMessageBox("All data has been cleared! You have a fresh start. 🎉");
+        };
+
+        const deleteDayTasks = (date) => {
+            const dateString = date.toLocaleString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            const dayIndex = appState.plan.findIndex(d => new Date(d.date).setHours(0,0,0,0) === date.setHours(0,0,0,0));
+            
+            if (dayIndex !== -1) {
+                appState.lastDeletedDay = JSON.parse(JSON.stringify(appState.plan[dayIndex]));
+                appState.lastDeletedDayId = dayIndex;
+                
+                appState.plan.splice(dayIndex, 1);
+                
+                savePlanToLocalStorage();
+                renderPlan();
+                renderCalendar();
+                showUndoNotification();
+            }
+        };
+
+        const showUndoNotification = () => {
+            dom.undoNotification.style.display = 'flex';
+            setTimeout(() => {
+                dom.undoNotification.style.display = 'none';
+                appState.lastDeletedDay = null;
+            }, 5000);
+        };
+
+        const undoDelete = () => {
+            if (appState.lastDeletedDay && appState.lastDeletedDayId !== null) {
+                appState.plan.splice(appState.lastDeletedDayId, 0, appState.lastDeletedDay);
+                
+                savePlanToLocalStorage();
+                renderPlan();
+                renderCalendar();
+                
+                dom.undoNotification.style.display = 'none';
+                appState.lastDeletedDay = null;
+                appState.lastDeletedDayId = null;
+            }
+        };
+
+        // --- Countdown Timer Logic ---
+        const endDate = new Date('2025-11-30T23:59:59').getTime();
+
+        const updateCountdown = () => {
+            const now = new Date().getTime();
+            const distance = endDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+            if (distance < 0) {
+                dom.countdown.innerHTML = "Countdown has expired! ⌛";
+            } else {
+                dom.countdown.innerHTML = `
+                    <span class="font-black text-blue-200">${days}</span> days 
+                    <span class="font-black text-blue-200">${hours}</span> hrs 
+                    <span class="font-black text-blue-200">${minutes}</span> mins left
+                `;
+            }
+        };
+
+        // --- Calendar Logic ---
+        const renderCalendar = () => {
+            dom.calendarContainer.innerHTML = '';
+
+            const monthDate = new Date(appState.currentYear, appState.currentMonth);
+            const monthName = monthDate.toLocaleString('en-IN', { month: 'long', year: 'numeric' });
+            
+            const header = document.createElement('div');
+            header.className = 'flex items-center justify-between mb-4 calendar-header';
+            header.innerHTML = `
+                <button onclick="prevMonth()" class="text-gray-600 hover:text-gray-900 font-bold text-xl">&lt;</button>
+                <h4 class="text-lg font-bold text-gray-800">${monthName}</h4>
+                <button onclick="nextMonth()" class="text-gray-600 hover:text-gray-900 font-bold text-xl">&gt;</button>
+            `;
+            dom.calendarContainer.appendChild(header);
+
+            const grid = document.createElement('div');
+            grid.className = 'grid grid-cols-7 gap-1 text-center text-sm calendar-grid';
+            
+            const dayNames = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+            dayNames.forEach(name => {
+                const dayNameElement = document.createElement('div');
+                dayNameElement.className = 'font-bold text-gray-500';
+                dayNameElement.textContent = name;
+                grid.appendChild(dayNameElement);
+            });
+            
+            const firstDayOfMonth = new Date(appState.currentYear, appState.currentMonth, 1);
+            const firstDayIndex = firstDayOfMonth.getDay();
+            for (let j = 0; j < firstDayIndex; j++) {
+                const emptyCell = document.createElement('div');
+                grid.appendChild(emptyCell);
+            }
+
+            const daysInMonth = new Date(appState.currentYear, appState.currentMonth + 1, 0).getDate();
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            for (let j = 1; j <= daysInMonth; j++) {
+                const dayDate = new Date(appState.currentYear, appState.currentMonth, j);
+                const dayIndexInPlan = appState.plan.findIndex(d => new Date(d.date).setHours(0,0,0,0) === dayDate.setHours(0,0,0,0));
+
+                const dayContainer = document.createElement('div');
+                dayContainer.className = 'day-cell-hover-container relative';
+
+                const dayCell = document.createElement('div');
+                dayCell.className = 'p-1 rounded-full cursor-pointer transition-colors';
+                dayCell.textContent = j;
+                
+                if (dayIndexInPlan !== -1) {
+                    const dayTasks = appState.plan[dayIndexInPlan];
+                    const allTasksCompletedAndScored = dayTasks.tasks.every(task => task.isDone && (!task.isScorable || (task.isScorable && task.score)));
+
+                    if (allTasksCompletedAndScored) {
+                         dayCell.className += ' bg-green-100 text-green-700';
+                    } else {
+                        dayCell.className += ' bg-blue-100 text-blue-800 hover:bg-blue-200';
+                    }
+                    
+                    dayCell.onclick = () => {
+                        openViewTasksModal(dayIndexInPlan, dayDate);
+                    };
+
+                    const deleteIcon = document.createElement('span');
+                    deleteIcon.className = 'delete-icon';
+                    deleteIcon.innerHTML = '&times;';
+                    deleteIcon.onclick = (e) => {
+                        e.stopPropagation();
+                        deleteDayTasks(dayDate);
+                    };
+                    dayContainer.appendChild(deleteIcon);
+                } else {
+                    dayCell.className += ' text-gray-600 hover:bg-gray-200';
+                    dayCell.onclick = () => {
+                        openViewTasksModal(-1, dayDate);
+                    };
+                }
+                
+                if (dayDate.setHours(0,0,0,0) === today.setHours(0,0,0,0)) {
+                    dayCell.className += ' ring-2 ring-blue-500';
+                }
+
+                dayContainer.appendChild(dayCell);
+                grid.appendChild(dayContainer);
+            }
+            dom.calendarContainer.appendChild(grid);
+        };
+        
+        const prevMonth = () => {
+            appState.currentMonth--;
+            if (appState.currentMonth < 0) {
+                appState.currentMonth = 11;
+                appState.currentYear--;
+            }
+            renderCalendar();
+        };
+
+        const nextMonth = () => {
+            appState.currentMonth++;
+            if (appState.currentMonth > 11) {
+                appState.currentMonth = 0;
+                appState.currentYear++;
+            }
+            renderCalendar();
+        };
+
+        // --- Initialization ---
+        window.onload = () => {
+            // Expose functions to the global scope for event handlers
+            window.openClearDataModal = openClearDataModal;
+            window.closeClearDataModal = closeClearDataModal;
+            window.clearAllDataAndReload = clearAllDataAndReload;
+            window.openViewTasksModal = openViewTasksModal;
+            window.closeModal = closeModal;
+            window.openScoreModal = openScoreModal;
+            window.closeScoreModal = closeScoreModal;
+            window.saveScore = saveScore;
+            window.undoDelete = undoDelete;
+            window.deleteDayTasks = deleteDayTasks;
+            window.prevMonth = prevMonth;
+            window.nextMonth = nextMonth;
+            window.exportData = exportData;
+            window.importData = importData;
+            
+            loadPlanFromLocalStorage();
+            renderPlan();
+            renderCalendar();
+            setInterval(updateCountdown, 1000);
+            updateCountdown();
+            dom.dailyQuote.textContent = getDailyQuote();
+            dom.taskForm.addEventListener('submit', saveTaskFromModal);
+        };
+        
+        const generateNewPlan = () => {
+            const newPlan = [];
+            const startDate = new Date('2025-08-03');
+
+            for (let i = 0; i < 3; i++) {
+                const currentDate = new Date(startDate);
+                currentDate.setDate(startDate.getDate() + i);
+                const dayOfWeek = currentDate.getDay();
+                
+                const dailyTasks = [
+                    { id: `daily-target-${i}-1`, text: '📖 Daily Targets (1 RC, 5 new words, 1 DILR set, 10 quant)', isDone: false, score: '', isScorable: false },
+                    { id: `daily-target-${i}-2`, text: '🧠 Weak area study (Quant)', isDone: false, score: '', isScorable: false },
+                    { id: `daily-target-${i}-3`, text: '✍️ Read Aeon articles', isDone: false, score: '', isScorable: false }
+                ];
+
+                if (dayOfWeek !== 6 && dayOfWeek !== 0) {
+                    dailyTasks.push(
+                        { id: `creaku-target-${i}`, text: '🎯 Creaku Daily Target', isDone: false, score: '', isScorable: false },
+                        { id: `creaku-analysis-${i}`, text: '🧐 Creaku Analysis', isDone: false, score: '', isScorable: false }
+                    );
+                }
+
+                if (dayOfWeek === 0) {
+                    dailyTasks.push({ id: `sunday-review-${i}`, text: '📝 Weekly Performance Review', isDone: false, score: '', isScorable: false });
+                } else if (dayOfWeek === 1 || dayOfWeek === 3 || dayOfWeek === 5) {
+                    dailyTasks.push(
+                        { id: `mock-${i}`, text: '📚 Mock Test', isDone: false, score: '', isScorable: true},
+                        { id: `mock-analysis-${i}`, text: '📊 Mock Test Analysis', isDone: false, score: '', isScorable: false}
+                    );
+                } else {
+                    dailyTasks.push(
+                        { id: `sectional-${i}`, text: '✏️ Sectional Test', isDone: false, score: '', isScorable: true},
+                        { id: `sectional-analysis-${i}`, text: '🧐 Sectional Analysis', isDone: false, score: '', isScorable: false}
+                    );
+                }
+                
+                const completedTasks = dailyTasks.filter(task => task.isDone).length;
+                const totalTasks = dailyTasks.length;
+                const progress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
+                
+                newPlan.push({
+                    date: currentDate.toLocaleString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }),
+                    tasks: dailyTasks,
+                    progress: progress
+                });
+            }
+            appState.plan = newPlan;
+            savePlanToLocalStorage();
+        };
+    </script>
+</body>
+</html>
