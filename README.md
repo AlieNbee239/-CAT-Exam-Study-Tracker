@@ -1,4 +1,4 @@
-https://alienbee239.github.io/CAT-Exam-Study-Tracker/   👈👈👈👈👈👈this id the tracker
+https://alienbee239.github.io/CAT-Exam-Study-Tracker-and-planner  👈👈👈👈👈👈this id the tracker
 ## 👆👆👆👆👆👆👆👆tracker and Planner👆👆 
 
 
@@ -71,20 +71,58 @@ It gives you a clear, day-by-day view of your tasks—plus a countdown to your e
 - **Export** button: Download your entire plan as `.json`
 - **Import** button: Upload a saved plan back into the app
 
----
+export data looks like 
 
-## 🧠 Tips for Success
+```[
+  {
+    "date": "Sunday 10 August, 2025",
+    "tasks": [
+      {
+        "id": "custom-task-0-0-1754758629568",
+        "text": "Mock",
+        "isDone": false,
+        "score": "",
+        "isScorable": true
+      },
+      {
+        "id": "custom-task-0-1-1754758656988",
+        "text": "10 alg question",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "custom-task-0-2-1754758679027",
+        "text": "10 arithmetic question",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "custom-task-0-3-1754758702467",
+        "text": "mock analysis",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "custom-task-0-4-1754758725689",
+        "text": "1 rc  pyq",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      },
+      {
+        "id": "custom-task-0-5-1754758740737",
+        "text": "1 lrdi pyq",
+        "isDone": false,
+        "score": "",
+        "isScorable": false
+      }
+    ],
+    "progress": 0
+  }
+]```
 
-- 🖱️ **Double-click a task** to mark it quickly.
-- 🎯 Use the **sidebar** to add tasks, scores, or switch themes.
-- 🌗 **High Contrast Mode** is available for better visibility.
-- 📅 Plan ahead using the calendar to avoid last-minute stress.
-- 💾 Export weekly to keep your data safe.
 
----
-
-## 💬 Final Words
-
-Stay consistent. Stay mindful. Stay powerful.  
-With this tool, you're not just prepping—you’re evolving.  
-Good luck, and may your percentile rise like a phoenix. 🔥
+ 
