@@ -1,10 +1,10 @@
 https://alienbee239.github.io/CAT-Exam-Study-Tracker/   👈👈👈👈👈👈this id the tracker
-## 👆👆👆👆👆👆👆👆tracker👆👆 
+## 👆👆👆👆👆👆👆👆tracker and Planner👆👆 
 
 
 
-# -CAT-Exam-Study-Tracker
-A minimalist study tracker web app 🎯 designed for CAT exam preparation. Effortlessly manage daily tasks 📝, visualize progress with a countdown timer, and stay motivated. Features a calendar overview and secure data import/export. Built with HTML, CSS, and Vanilla JS for a smooth, fast experience. 🚀
+# -CAT-Exam-Study-Tracker and Planner 
+A minimalist study tracker web app 🎯 designed for CAT exam preparation. Effortlessly manage daily tasks 📝, visualize progress with a countdown timer, and stay motivated. Features a calendar overview and secure data import/export. Built with HTML, CSS, and Vanilla JS for a smooth, fast experience. 🚀 better Than  creaku,Strat Cat
  # 🎯 CAT Exam Study Tracker
 
 Welcome to your new study buddy!  
